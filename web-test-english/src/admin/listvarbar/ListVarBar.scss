@@ -1,0 +1,17 @@
+.listvarbar{
+    display: grid;
+    span{
+        color: #3F51B5;
+        font-size: larger;
+    }
+    a{
+        border: none;
+        background-color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        &:hover{
+            color: white;
+            background-color: rgb(224, 224, 255);
+        }
+    }
+}

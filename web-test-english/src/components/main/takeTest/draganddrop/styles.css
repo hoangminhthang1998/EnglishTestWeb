@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  border-bottom: 3px solid #aaa;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background: Tomato;
+  color: White;
+}
+
+.thumbnail--small {
+  width: 50px;
+  height: 50px;
+}

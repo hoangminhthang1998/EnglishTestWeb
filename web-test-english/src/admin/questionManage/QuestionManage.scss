@@ -1,0 +1,55 @@
+.questionmanage{
+    &__list{
+        margin-left: 20px;
+        &__show{
+            display: flex;
+            margin-top: 10px;
+            &__ques{
+                display: 'grid';
+                &__btn{
+                    margin-top: 10px;
+                    button{
+                        margin-top: 3px;
+                        padding: 5px 10px;
+                        border: none;
+                        color: white !important;
+                        font-weight: 600;
+                    }
+                    &--ok{
+                        background-color: rgb(104, 206, 2);
+                        &:hover{
+                            background-color: rgb(73, 146, 0);
+                        }
+                    }
+                    &--cancel{
+                        // color: white;
+                        background-color: rgb(219, 0, 0);
+                        &:hover{
+                            background-color: rgb(165, 0, 0);
+                        }
+                    }
+                }
+            }
+            &__action{
+                a{
+                    color: white !important;
+                    font-weight: 600;
+                    padding: 5px 10px;
+                }
+                &--edit{
+                    background-color: rgb(104, 206, 2);
+                    &:hover{
+                        background-color: rgb(73, 146, 0);
+                    }
+                }
+                &--del{
+                    // color: white;
+                    background-color: rgb(219, 0, 0);
+                    &:hover{
+                        background-color: rgb(165, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+}

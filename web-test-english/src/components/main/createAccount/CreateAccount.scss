@@ -1,0 +1,89 @@
+.creaccount{
+    margin: auto;
+    width: 70%;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    &__body{
+        padding: 10px;
+        h2{
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+        &__note{
+            margin-top: 10px;
+            background-color: #F7F7F7;
+            padding: 8px;
+            border: 1px solid rgb(180, 180, 180);
+            border-radius: 5px;
+        }
+        span[type='radio']{
+            float: left;
+            margin-top: 23px;
+        }
+        &__arrShow{
+            color: red;
+            margin-left: 174px ;
+        }
+        &__sex{
+            span[type='radio']{
+                float: left;
+                margin-top: 13px
+            }
+            &__seperate{
+                margin-left: 174px;
+                margin-top: 10px;
+                border: 1px solid rgb(180, 180, 180);
+                border-radius: 5px;
+                height: 43px;
+                width: 27%;
+                &__radio{
+                    padding: 13px 10px;
+                }
+                label{
+                   margin-right: 10px;
+                }
+                // // span[type="radio"]{
+                // //     float: left;
+                // //     padding: 13px 10px;
+                // //     margin-right: 200px;
+                // // }
+                span{
+                    padding: 0px 1px;
+                    float: left;
+                }
+                input[type="radio"]{
+                    margin-top: 0px;
+                }
+            }
+        }
+        &__birthday{
+            margin-top: 10px;
+            input[type="date"]{
+                width:27%;
+                margin-top:0px;
+                padding: 9px;
+                margin-left: 109px;
+                border: 1px solid rgb(180, 180, 180);
+                border-radius: 5px;
+            }
+        }
+        input[type="value"]{
+            margin-top: 10px;
+            border: 1px solid rgb(180, 180, 180);
+            border-radius: 5px;
+            width: 80%;
+            padding: 10px;
+            margin-left: 174px;
+            display: block;
+        }
+        &__action{
+            margin-top: 10px;
+            &__c{
+                margin: auto;
+                width: 23%;
+            }
+        }
+    }
+}
+    

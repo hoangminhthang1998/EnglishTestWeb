@@ -1,0 +1,18 @@
+.topnav {
+    display: flex;
+    overflow: hidden;
+    background-color: #3F51B5;
+  }
+.topnav a {
+  color: #f2f2f2 !important;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.ant-drawer-body{
+  padding: 0px
+}
+a:focus{
+  outline: none;
+}
